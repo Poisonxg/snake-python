@@ -53,6 +53,7 @@ class Logic(object):
                 return random.randint(1, 2)
 
 
+#Data Augmentation for a ANN.
 if __name__ == '__main__':
     features = 9 * np.random.randint(low=1, high=48, size=(20000, 5))
     labels = []
